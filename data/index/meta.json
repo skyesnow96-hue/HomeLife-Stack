@@ -1,0 +1,432 @@
+{
+  "index_settings": {
+    "docstore_compression": "lz4",
+    "docstore_blocksize": 16384
+  },
+  "segments": [
+    {
+      "segment_id": "b216d28d-7437-4149-b892-06cf6ffe6ebc",
+      "max_doc": 44,
+      "deletes": null
+    },
+    {
+      "segment_id": "8695ed07-a223-4770-ae4e-38b5955b6f1d",
+      "max_doc": 28,
+      "deletes": null
+    }
+  ],
+  "schema": [
+    {
+      "name": "id",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true
+      }
+    },
+    {
+      "name": "title",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "content",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "correspondent",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "document_type",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "storage_path",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "original_filename",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "tag",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "checksum",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "raw"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "asn",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true
+      }
+    },
+    {
+      "name": "page_count",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true
+      }
+    },
+    {
+      "name": "num_notes",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true
+      }
+    },
+    {
+      "name": "created",
+      "type": "date",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true,
+        "precision": "seconds"
+      }
+    },
+    {
+      "name": "modified",
+      "type": "date",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true,
+        "precision": "seconds"
+      }
+    },
+    {
+      "name": "added",
+      "type": "date",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": true,
+        "precision": "seconds"
+      }
+    },
+    {
+      "name": "notes",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "notes_text",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "stored": true,
+        "fast": false
+      }
+    },
+    {
+      "name": "custom_fields",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "barcodes",
+      "type": "json_object",
+      "options": {
+        "stored": true,
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "paperless_text"
+        },
+        "fast": false,
+        "expand_dots_enabled": false
+      }
+    },
+    {
+      "name": "title_sort",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "simple_analyzer"
+        },
+        "stored": false,
+        "fast": {
+          "with_tokenizer": "simple_analyzer"
+        }
+      }
+    },
+    {
+      "name": "correspondent_sort",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "simple_analyzer"
+        },
+        "stored": false,
+        "fast": {
+          "with_tokenizer": "simple_analyzer"
+        }
+      }
+    },
+    {
+      "name": "type_sort",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "simple_analyzer"
+        },
+        "stored": false,
+        "fast": {
+          "with_tokenizer": "simple_analyzer"
+        }
+      }
+    },
+    {
+      "name": "bigram_content",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "bigram_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "bigram_title",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "bigram_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "bigram_correspondent",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "bigram_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "bigram_document_type",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "bigram_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "bigram_tag",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "bigram_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "simple_title",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "simple_search_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "simple_content",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "simple_search_analyzer"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "autocomplete_word",
+      "type": "text",
+      "options": {
+        "indexing": {
+          "record": "position",
+          "fieldnorms": true,
+          "tokenizer": "raw"
+        },
+        "stored": false,
+        "fast": false
+      }
+    },
+    {
+      "name": "owner_id",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": false
+      }
+    },
+    {
+      "name": "viewer_id",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": false
+      }
+    },
+    {
+      "name": "viewer_group_id",
+      "type": "u64",
+      "options": {
+        "indexed": true,
+        "fieldnorms": false,
+        "fast": true,
+        "stored": false
+      }
+    }
+  ],
+  "opstamp": 74
+}

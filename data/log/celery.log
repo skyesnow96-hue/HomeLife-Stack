@@ -1,0 +1,603 @@
+[2026-10-26 01:24:02,151] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, status_callback="0"):
+    return 1
+
+[2026-10-26 01:24:02,159] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2026-10-26 01:24:02,160] [DEBUG] [celery.utils.functional] 
+def index_document(self, document_id):
+    return 1
+
+[2026-10-26 01:24:02,163] [DEBUG] [celery.utils.functional] 
+def apply_ai_suggestions(self, action_id, document_id):
+    return 1
+
+[2026-10-26 01:24:02,164] [DEBUG] [celery.utils.functional] 
+def process_cf_select_update(custom_field):
+    return 1
+
+[2026-10-26 01:24:02,167] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2026-10-26 01:24:02,168] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2026-10-26 01:24:02,171] [DEBUG] [celery.utils.functional] 
+def build_share_link_bundle(bundle_id):
+    return 1
+
+[2026-10-26 01:24:02,172] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,296] [DEBUG] [celery.bootsteps] | Worker: Preparing bootsteps.
+[2026-10-26 01:24:02,313] [DEBUG] [celery.bootsteps] | Worker: Building graph...
+[2026-10-26 01:24:02,317] [DEBUG] [celery.bootsteps] | Worker: New boot order: {StateDB, Beat, Timer, Hub, Pool, Autoscaler, Consumer}
+[2026-10-26 01:24:02,381] [DEBUG] [celery.bootsteps] | Consumer: Preparing bootsteps.
+[2026-10-26 01:24:02,385] [DEBUG] [celery.bootsteps] | Consumer: Building graph...
+[2026-10-26 01:24:02,476] [DEBUG] [celery.bootsteps] | Consumer: New boot order: {Connection, Events, Mingle, Tasks, Control, Heart, Agent, DelayedDelivery, Gossip, event loop}
+[2026-10-26 01:24:02,587] [DEBUG] [celery.bootsteps] | Worker: Starting Hub
+[2026-10-26 01:24:02,588] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:02,588] [DEBUG] [celery.bootsteps] | Worker: Starting Pool
+[2026-10-26 01:24:02,643] [DEBUG] [celery.utils.functional] 
+def apply_mail_action(result, rule_id, message_uid, message_subject, message_date, uid_validity=0):
+    return 1
+
+[2026-10-26 01:24:02,645] [DEBUG] [celery.utils.functional] 
+def unlock_chord(self, group_id, callback, interval=0, max_retries=1, result=2, Result=3, GroupResult=4, result_from_tuple=5, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,648] [DEBUG] [celery.utils.functional] 
+def cleanup_expired_share_link_bundles():
+    return 1
+
+[2026-10-26 01:24:02,649] [DEBUG] [celery.utils.functional] 
+def xmap(task, it):
+    return 1
+
+[2026-10-26 01:24:02,652] [DEBUG] [celery.utils.functional] 
+def index_optimize():
+    return 1
+
+[2026-10-26 01:24:02,653] [DEBUG] [celery.utils.functional] 
+def xstarmap(task, it):
+    return 1
+
+[2026-10-26 01:24:02,656] [DEBUG] [celery.utils.functional] 
+def train_classifier(*, status_callback="0"):
+    return 1
+
+[2026-10-26 01:24:02,660] [DEBUG] [celery.utils.functional] 
+def llmindex_index(*, iter_wrapper="0", rebuild="1"):
+    return 1
+
+[2026-10-26 01:24:02,661] [DEBUG] [celery.utils.functional] 
+def bulk_update_documents(document_ids):
+    return 1
+
+[2026-10-26 01:24:02,664] [DEBUG] [celery.utils.functional] 
+def remove_document_from_llm_index(document):
+    return 1
+
+[2026-10-26 01:24:02,665] [DEBUG] [celery.utils.functional] 
+def empty_trash(doc_ids=0):
+    return 1
+
+[2026-10-26 01:24:02,668] [DEBUG] [celery.utils.functional] 
+def chunks(task, it, n):
+    return 1
+
+[2026-10-26 01:24:02,669] [DEBUG] [celery.utils.functional] 
+def error_callback(request, exc, tb, rule_id, message_uid, message_subject, message_date, uid_validity=0):
+    return 1
+
+[2026-10-26 01:24:02,672] [DEBUG] [celery.utils.functional] 
+def group(self, tasks, result, group_id, partial_args, add_to_parent=0):
+    return 1
+
+[2026-10-26 01:24:02,673] [DEBUG] [celery.utils.functional] 
+def index_document(self, document_id):
+    return 1
+
+[2026-10-26 01:24:02,676] [DEBUG] [celery.utils.functional] 
+def process_mail_accounts(self, account_ids=0):
+    return 1
+
+[2026-10-26 01:24:02,679] [DEBUG] [celery.utils.functional] 
+def chain(*args, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,680] [DEBUG] [celery.utils.functional] 
+def consume_file(self, input_doc, overrides=0):
+    return 1
+
+[2026-10-26 01:24:02,684] [DEBUG] [celery.utils.functional] 
+def apply_ai_suggestions(self, action_id, document_id):
+    return 1
+
+[2026-10-26 01:24:02,685] [DEBUG] [celery.utils.functional] 
+def process_cf_select_update(custom_field):
+    return 1
+
+[2026-10-26 01:24:02,690] [DEBUG] [celery.utils.functional] 
+def chord(self, header, body, partial_args=0, interval=1, countdown=2, max_retries=3, eager=4, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,691] [DEBUG] [celery.utils.functional] 
+def build_share_link_bundle(bundle_id):
+    return 1
+
+[2026-10-26 01:24:02,694] [DEBUG] [celery.utils.functional] 
+def check_scheduled_workflows():
+    return 1
+
+[2026-10-26 01:24:02,695] [DEBUG] [celery.utils.functional] 
+def restore_archive_serial_numbers_task(self, backup, *args, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,698] [DEBUG] [celery.utils.functional] 
+def update_document_content_maybe_archive_file(document_id, *, remote_ocr="0"):
+    return 1
+
+[2026-10-26 01:24:02,699] [DEBUG] [celery.utils.functional] 
+def remove_document_from_index(self, doc_id):
+    return 1
+
+[2026-10-26 01:24:02,702] [DEBUG] [celery.utils.functional] 
+def backend_cleanup():
+    return 1
+
+[2026-10-26 01:24:02,704] [DEBUG] [celery.utils.functional] 
+def send_webhook(url, data, headers, files, *, as_json="0"):
+    return 1
+
+[2026-10-26 01:24:02,705] [DEBUG] [celery.utils.functional] 
+def delete(doc_ids):
+    return 1
+
+[2026-10-26 01:24:02,706] [DEBUG] [celery.utils.functional] 
+def sanity_check(*, raise_on_error="0"):
+    return 1
+
+[2026-10-26 01:24:02,707] [DEBUG] [celery.utils.functional] 
+def update_document_in_llm_index(document):
+    return 1
+
+[2026-10-26 01:24:02,709] [DEBUG] [celery.utils.functional] 
+def accumulate(self, *args, **kwargs):
+    return 1
+
+[2026-10-26 01:24:02,757] [DEBUG] [celery.beat] Setting default socket timeout to 30
+[2026-10-26 01:24:02,757] [INFO] [celery.beat] beat: Starting...
+[2026-10-26 01:24:02,993] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:02,994] [DEBUG] [celery.bootsteps] | Worker: Starting Consumer
+[2026-10-26 01:24:02,997] [DEBUG] [celery.bootsteps] | Consumer: Starting Connection
+[2026-10-26 01:24:03,029] [INFO] [celery.worker.consumer.connection] Connected to redis://broker:6379//
+[2026-10-26 01:24:03,029] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:03,030] [DEBUG] [celery.bootsteps] | Consumer: Starting Events
+[2026-10-26 01:24:03,039] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:03,040] [DEBUG] [celery.bootsteps] | Consumer: Starting Tasks
+[2026-10-26 01:24:03,114] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:03,114] [DEBUG] [celery.bootsteps] | Consumer: Starting Control
+[2026-10-26 01:24:03,127] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:03,128] [DEBUG] [celery.bootsteps] | Consumer: Starting Heart
+[2026-10-26 01:24:03,134] [DEBUG] [celery.bootsteps] ^-- substep ok
+[2026-10-26 01:24:03,134] [DEBUG] [celery.bootsteps] | Consumer: Starting event loop
+[2026-10-26 01:24:03,134] [DEBUG] [celery.bootsteps] | Worker: Hub.register Pool...
+[2026-10-26 01:24:03,138] [INFO] [celery.apps.worker] celery@1a7df94ea77d ready.
+[2026-10-26 01:24:03,138] [DEBUG] [kombu.common] basic.qos: prefetch_count->4
+[2026-10-26 01:24:03,347] [DEBUG] [celery.beat] Current schedule:
+<ScheduleEntry: Check all e-mail accounts paperless_mail.tasks.process_mail_accounts() <crontab: 7,17,27,37,47,57 * * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Train the classifier documents.tasks.train_classifier() <crontab: 5 */1 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Check and run scheduled workflows documents.tasks.check_scheduled_workflows() <crontab: 5 */1 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Optimize the index documents.tasks.index_optimize() <crontab: 0 0 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Perform sanity check documents.tasks.sanity_check() <crontab: 30 0 * * sun (m/h/dM/MY/d)>
+<ScheduleEntry: Rebuild LLM index documents.tasks.llmindex_index() <crontab: 10 2 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Cleanup expired share link bundles documents.tasks.cleanup_expired_share_link_bundles() <crontab: 0 2 * * * (m/h/dM/MY/d)>
+<ScheduleEntry: Empty trash documents.tasks.empty_trash() <crontab: 0 1 * * * (m/h/dM/MY/d)>
+[2026-10-26 01:24:03,348] [DEBUG] [celery.beat] beat: Ticking with max interval->5.00 minutes
+[2026-10-26 01:24:03,352] [DEBUG] [celery.beat] beat: Waking up in 2.94 minutes.
+[2026-10-26 01:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:27:00,124] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 01:27:00,636] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->04909fbf-7455-4cf1-8734-f5a9f69a2fd4
+[2026-10-26 01:27:00,638] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 01:27:00,642] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[04909fbf-7455-4cf1-8734-f5a9f69a2fd4] received
+[2026-10-26 01:27:00,644] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '04909fbf-7455-4cf1-8734-f5a9f69a2fd4', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '04909fbf-7455-4cf1-8734-f5a9f69a2fd4', 'shadow': None, 'eta': None, 'expires': '2026-10-26T01:36:00.132689-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '04909fbf-7455-4cf1-8734-f5a9f69a2fd4', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '04909fbf-7455-4cf1-8734-f5a9f69a2fd4', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'b175d0f9-dc9c-431f-9b8e-8ee2a71f5d97'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 01:27:03,956] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[04909fbf-7455-4cf1-8734-f5a9f69a2fd4] succeeded in 3.3082191709982s: 'No new documents were added.'
+[2026-10-26 01:32:00,639] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:32:00,689] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 01:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:37:00,091] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 01:37:00,172] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->e2e6efc7-72a0-4d92-9cbc-278642e98d93
+[2026-10-26 01:37:00,174] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 01:37:00,175] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[e2e6efc7-72a0-4d92-9cbc-278642e98d93] received
+[2026-10-26 01:37:00,178] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'e2e6efc7-72a0-4d92-9cbc-278642e98d93', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'e2e6efc7-72a0-4d92-9cbc-278642e98d93', 'shadow': None, 'eta': None, 'expires': '2026-10-26T01:46:00.093234-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'e2e6efc7-72a0-4d92-9cbc-278642e98d93', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'e2e6efc7-72a0-4d92-9cbc-278642e98d93', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '57e686dc-e9c2-41fc-b0a3-b0fa24ea3bb7'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 01:37:13,560] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[e2e6efc7-72a0-4d92-9cbc-278642e98d93] succeeded in 13.377423138008453s: 'No new documents were added.'
+[2026-10-26 01:42:00,175] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:42:00,251] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 01:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:47:00,068] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 01:47:00,143] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->64fe7eb5-34b6-42f7-8839-9f7aad93eb19
+[2026-10-26 01:47:00,145] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 01:47:00,147] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[64fe7eb5-34b6-42f7-8839-9f7aad93eb19] received
+[2026-10-26 01:47:00,150] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '64fe7eb5-34b6-42f7-8839-9f7aad93eb19', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '64fe7eb5-34b6-42f7-8839-9f7aad93eb19', 'shadow': None, 'eta': None, 'expires': '2026-10-26T01:56:00.069696-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '64fe7eb5-34b6-42f7-8839-9f7aad93eb19', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '64fe7eb5-34b6-42f7-8839-9f7aad93eb19', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'b4cb69c4-e916-448a-88db-c977d8335904'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 01:47:03,859] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[64fe7eb5-34b6-42f7-8839-9f7aad93eb19] succeeded in 3.7055121610028436s: 'No new documents were added.'
+[2026-10-26 01:52:00,146] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:52:00,227] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 01:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 01:57:00,054] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 01:57:00,131] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->4ccdf239-dfe7-4933-ad86-ff401574c494
+[2026-10-26 01:57:00,132] [DEBUG] [celery.beat] beat: Waking up in 3.00 minutes.
+[2026-10-26 01:57:00,133] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[4ccdf239-dfe7-4933-ad86-ff401574c494] received
+[2026-10-26 01:57:00,135] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '4ccdf239-dfe7-4933-ad86-ff401574c494', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '4ccdf239-dfe7-4933-ad86-ff401574c494', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:06:00.055869-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '4ccdf239-dfe7-4933-ad86-ff401574c494', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '4ccdf239-dfe7-4933-ad86-ff401574c494', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'bec730dd-6c01-4af4-8e92-9f61ea267679'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 01:57:03,002] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[4ccdf239-dfe7-4933-ad86-ff401574c494] succeeded in 2.8648478870018153s: 'No new documents were added.'
+[2026-10-26 02:00:00,000] [INFO] [celery.beat] Scheduler: Sending due task Cleanup expired share link bundles (documents.tasks.cleanup_expired_share_link_bundles)
+[2026-10-26 02:00:00,009] [DEBUG] [celery.beat] documents.tasks.cleanup_expired_share_link_bundles sent. id->bdfc2fdd-b662-422a-b30e-7ff67b0b2344
+[2026-10-26 02:00:00,012] [INFO] [celery.worker.strategy] Task documents.tasks.cleanup_expired_share_link_bundles[bdfc2fdd-b662-422a-b30e-7ff67b0b2344] received
+[2026-10-26 02:00:00,014] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:00:00,015] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.cleanup_expired_share_link_bundles', 'bdfc2fdd-b662-422a-b30e-7ff67b0b2344', {'lang': 'py', 'task': 'documents.tasks.cleanup_expired_share_link_bundles', 'id': 'bdfc2fdd-b662-422a-b30e-7ff67b0b2344', 'shadow': None, 'eta': None, 'expires': '2026-10-27T01:00:00.002032-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'bdfc2fdd-b662-422a-b30e-7ff67b0b2344', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'bdfc2fdd-b662-422a-b30e-7ff67b0b2344', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '82800000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '82a27545-0358-4224-91a1-941d92e8a206'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9',... kwargs:{})
+[2026-10-26 02:00:00,369] [INFO] [celery.app.trace] Task documents.tasks.cleanup_expired_share_link_bundles[bdfc2fdd-b662-422a-b30e-7ff67b0b2344] succeeded in 0.34991042799083516s: None
+[2026-10-26 02:04:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:05:00,065] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 02:05:00,151] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->233a2915-83da-4548-b49c-a9fe1a7e22cd
+[2026-10-26 02:05:00,154] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 02:05:00,154] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[233a2915-83da-4548-b49c-a9fe1a7e22cd] received
+[2026-10-26 02:05:00,157] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', '233a2915-83da-4548-b49c-a9fe1a7e22cd', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': '233a2915-83da-4548-b49c-a9fe1a7e22cd', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:04:00.067351-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '233a2915-83da-4548-b49c-a9fe1a7e22cd', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '233a2915-83da-4548-b49c-a9fe1a7e22cd', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'abc7249f-4d68-4b1f-9af0-f8ec5c9c9b69'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:05:00,204] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[5f0cff45-b1c5-42d0-b2da-faa980cd8e06] received
+[2026-10-26 02:05:00,206] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->5f0cff45-b1c5-42d0-b2da-faa980cd8e06
+[2026-10-26 02:05:00,207] [DEBUG] [celery.beat] beat: Waking up in 2.00 minutes.
+[2026-10-26 02:05:00,394] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[233a2915-83da-4548-b49c-a9fe1a7e22cd] succeeded in 0.23244857299141586s: None
+[2026-10-26 02:05:00,460] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', '5f0cff45-b1c5-42d0-b2da-faa980cd8e06', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': '5f0cff45-b1c5-42d0-b2da-faa980cd8e06', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:04:00.155645-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '5f0cff45-b1c5-42d0-b2da-faa980cd8e06', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '5f0cff45-b1c5-42d0-b2da-faa980cd8e06', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '8ddf8ca0-32c0-4549-a08b-86b701b0102d'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:05:01,117] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[5f0cff45-b1c5-42d0-b2da-faa980cd8e06] succeeded in 0.1842811079986859s: 'No automatic matching items, not training'
+[2026-10-26 02:07:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:07:00,320] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->f7daf27b-34a9-470d-9d4e-5558eab62591
+[2026-10-26 02:07:00,322] [DEBUG] [celery.beat] beat: Waking up in 2.99 minutes.
+[2026-10-26 02:07:00,325] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[f7daf27b-34a9-470d-9d4e-5558eab62591] received
+[2026-10-26 02:07:00,327] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'f7daf27b-34a9-470d-9d4e-5558eab62591', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'f7daf27b-34a9-470d-9d4e-5558eab62591', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:16:00.001999-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'f7daf27b-34a9-470d-9d4e-5558eab62591', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'f7daf27b-34a9-470d-9d4e-5558eab62591', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'd60a549b-3917-472a-8ffb-ff6b58cf4d8b'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:07:07,572] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[f7daf27b-34a9-470d-9d4e-5558eab62591] succeeded in 7.240752329991665s: 'No new documents were added.'
+[2026-10-26 02:09:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:10:00,309] [INFO] [celery.beat] Scheduler: Sending due task Rebuild LLM index (documents.tasks.llmindex_index)
+[2026-10-26 02:10:00,406] [DEBUG] [celery.beat] documents.tasks.llmindex_index sent. id->e790f481-cb02-420c-8414-87aa3eb556d7
+[2026-10-26 02:10:00,407] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:10:00,409] [INFO] [celery.worker.strategy] Task documents.tasks.llmindex_index[e790f481-cb02-420c-8414-87aa3eb556d7] received
+[2026-10-26 02:10:00,411] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.llmindex_index', 'e790f481-cb02-420c-8414-87aa3eb556d7', {'lang': 'py', 'task': 'documents.tasks.llmindex_index', 'id': 'e790f481-cb02-420c-8414-87aa3eb556d7', 'shadow': None, 'eta': None, 'expires': '2026-10-27T01:10:00.310252-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'e790f481-cb02-420c-8414-87aa3eb556d7', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'e790f481-cb02-420c-8414-87aa3eb556d7', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '82800000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '43dc81b5-85c7-4944-b9c2-62ad2e9536fa'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:10:00,492] [INFO] [celery.app.trace] Task documents.tasks.llmindex_index[e790f481-cb02-420c-8414-87aa3eb556d7] succeeded in 0.07714200399641413s: None
+[2026-10-26 02:15:00,408] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:15:00,673] [DEBUG] [celery.beat] beat: Waking up in 1.99 minutes.
+[2026-10-26 02:17:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:17:00,334] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->72b0222d-c106-4c90-9826-e8bd04f46101
+[2026-10-26 02:17:00,336] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:17:00,337] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[72b0222d-c106-4c90-9826-e8bd04f46101] received
+[2026-10-26 02:17:00,339] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '72b0222d-c106-4c90-9826-e8bd04f46101', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '72b0222d-c106-4c90-9826-e8bd04f46101', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:26:00.002354-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '72b0222d-c106-4c90-9826-e8bd04f46101', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '72b0222d-c106-4c90-9826-e8bd04f46101', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '4a61bfab-272d-487a-8023-aa270dd2a25c'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:17:06,118] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[72b0222d-c106-4c90-9826-e8bd04f46101] succeeded in 5.774931402003858s: 'No new documents were added.'
+[2026-10-26 02:22:00,337] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:22:00,407] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 02:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:27:00,060] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:27:00,138] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[ceebfb25-6d2c-4381-8767-6935040e3a9a] received
+[2026-10-26 02:27:00,139] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->ceebfb25-6d2c-4381-8767-6935040e3a9a
+[2026-10-26 02:27:00,140] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:27:00,140] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'ceebfb25-6d2c-4381-8767-6935040e3a9a', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'ceebfb25-6d2c-4381-8767-6935040e3a9a', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:36:00.062052-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'ceebfb25-6d2c-4381-8767-6935040e3a9a', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'ceebfb25-6d2c-4381-8767-6935040e3a9a', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'adcbbb21-5fb8-4a07-82c1-dd3565dfc2c9'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:27:04,297] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[ceebfb25-6d2c-4381-8767-6935040e3a9a] succeeded in 4.15485167899169s: 'No new documents were added.'
+[2026-10-26 02:32:00,140] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:32:00,210] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:37:00,074] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:37:00,142] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->40f02ebf-3b41-4281-bac7-72f56aa0841d
+[2026-10-26 02:37:00,144] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:37:00,144] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[40f02ebf-3b41-4281-bac7-72f56aa0841d] received
+[2026-10-26 02:37:00,145] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '40f02ebf-3b41-4281-bac7-72f56aa0841d', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '40f02ebf-3b41-4281-bac7-72f56aa0841d', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:46:00.075708-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '40f02ebf-3b41-4281-bac7-72f56aa0841d', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '40f02ebf-3b41-4281-bac7-72f56aa0841d', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '66b22f3a-34b2-47fc-ac0c-790134c3deb0'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:37:11,736] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[40f02ebf-3b41-4281-bac7-72f56aa0841d] succeeded in 11.588581174000865s: 'No new documents were added.'
+[2026-10-26 02:42:00,144] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:42:00,225] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:47:00,057] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:47:00,129] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->2a1bffb2-6489-42a7-a120-ba4c99422aec
+[2026-10-26 02:47:00,131] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:47:00,132] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[2a1bffb2-6489-42a7-a120-ba4c99422aec] received
+[2026-10-26 02:47:00,134] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '2a1bffb2-6489-42a7-a120-ba4c99422aec', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '2a1bffb2-6489-42a7-a120-ba4c99422aec', 'shadow': None, 'eta': None, 'expires': '2026-10-26T02:56:00.058530-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '2a1bffb2-6489-42a7-a120-ba4c99422aec', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '2a1bffb2-6489-42a7-a120-ba4c99422aec', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'd102dbaa-d231-4cda-acfe-ee4e77d82869'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:47:10,662] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[2a1bffb2-6489-42a7-a120-ba4c99422aec] succeeded in 10.524348756996915s: 'No new documents were added.'
+[2026-10-26 02:52:00,131] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:52:00,201] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 02:57:00,066] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 02:57:00,129] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->cfe65614-6883-4b1e-8e65-30f10133d613
+[2026-10-26 02:57:00,131] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 02:57:00,132] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[cfe65614-6883-4b1e-8e65-30f10133d613] received
+[2026-10-26 02:57:00,135] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'cfe65614-6883-4b1e-8e65-30f10133d613', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'cfe65614-6883-4b1e-8e65-30f10133d613', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:06:00.067451-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'cfe65614-6883-4b1e-8e65-30f10133d613', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'cfe65614-6883-4b1e-8e65-30f10133d613', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'f3ccba54-9f44-4a60-a885-f05af28c76c5'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 02:57:03,544] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[cfe65614-6883-4b1e-8e65-30f10133d613] succeeded in 3.4057277249958133s: 'No new documents were added.'
+[2026-10-26 03:02:00,131] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:02:00,204] [DEBUG] [celery.beat] beat: Waking up in 3.00 minutes.
+[2026-10-26 03:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 03:05:00,095] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->509fb668-e84a-4f9a-b91f-d9eaf2ad1808
+[2026-10-26 03:05:00,097] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 03:05:00,099] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[509fb668-e84a-4f9a-b91f-d9eaf2ad1808] received
+[2026-10-26 03:05:00,102] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', '509fb668-e84a-4f9a-b91f-d9eaf2ad1808', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': '509fb668-e84a-4f9a-b91f-d9eaf2ad1808', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:04:00.002034-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '509fb668-e84a-4f9a-b91f-d9eaf2ad1808', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '509fb668-e84a-4f9a-b91f-d9eaf2ad1808', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '63b6bf57-8998-483a-a8b3-f18c69540515'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:05:00,149] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->ca6ac604-ef77-4161-91cf-cc62717e512b
+[2026-10-26 03:05:00,151] [DEBUG] [celery.beat] beat: Waking up in 2.00 minutes.
+[2026-10-26 03:05:00,151] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[ca6ac604-ef77-4161-91cf-cc62717e512b] received
+[2026-10-26 03:05:00,198] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[509fb668-e84a-4f9a-b91f-d9eaf2ad1808] succeeded in 0.0911478860070929s: 'No automatic matching items, not training'
+[2026-10-26 03:05:00,257] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', 'ca6ac604-ef77-4161-91cf-cc62717e512b', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': 'ca6ac604-ef77-4161-91cf-cc62717e512b', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:04:00.099675-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'ca6ac604-ef77-4161-91cf-cc62717e512b', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'ca6ac604-ef77-4161-91cf-cc62717e512b', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '0d20fa53-7c09-4e32-a1b0-e499b4997543'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:05:03,096] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[ca6ac604-ef77-4161-91cf-cc62717e512b] succeeded in 0.1241289950121427s: None
+[2026-10-26 03:06:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:07:00,061] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:07:00,135] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->32b0b19a-3819-415c-8944-25500ee4f0fd
+[2026-10-26 03:07:00,137] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:07:00,138] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[32b0b19a-3819-415c-8944-25500ee4f0fd] received
+[2026-10-26 03:07:00,140] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '32b0b19a-3819-415c-8944-25500ee4f0fd', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '32b0b19a-3819-415c-8944-25500ee4f0fd', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:16:00.062996-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '32b0b19a-3819-415c-8944-25500ee4f0fd', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '32b0b19a-3819-415c-8944-25500ee4f0fd', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '8f805f8c-44de-4f8e-a12e-ea010bb690a0'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:07:03,595] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[32b0b19a-3819-415c-8944-25500ee4f0fd] succeeded in 3.4515279570041457s: 'No new documents were added.'
+[2026-10-26 03:12:00,138] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:12:00,210] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:16:59,992] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:17:00,064] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:17:00,137] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->4de6f72c-dc51-488c-9dee-e7773321c7a8
+[2026-10-26 03:17:00,138] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[4de6f72c-dc51-488c-9dee-e7773321c7a8] received
+[2026-10-26 03:17:00,139] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:17:00,140] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '4de6f72c-dc51-488c-9dee-e7773321c7a8', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '4de6f72c-dc51-488c-9dee-e7773321c7a8', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:26:00.065408-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '4de6f72c-dc51-488c-9dee-e7773321c7a8', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '4de6f72c-dc51-488c-9dee-e7773321c7a8', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '99e431f1-3b14-410d-8cdc-0282f1217799'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:17:05,525] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[4de6f72c-dc51-488c-9dee-e7773321c7a8] succeeded in 5.380498365993844s: 'No new documents were added.'
+[2026-10-26 03:22:00,140] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:22:00,312] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 03:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:27:00,097] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:27:00,170] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e
+[2026-10-26 03:27:00,171] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:27:00,172] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e] received
+[2026-10-26 03:27:00,174] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:36:00.099106-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '512cb939-d8c5-4646-80af-cebdf464b9c8'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:27:08,226] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[69c7ebcf-dcf9-45b5-b5b6-fdc33823a94e] succeeded in 8.047273610995035s: 'No new documents were added.'
+[2026-10-26 03:32:00,172] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:32:00,247] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:37:00,057] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:37:00,135] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->6c0245ca-9e23-46cb-b740-7eaf17a802d0
+[2026-10-26 03:37:00,137] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[6c0245ca-9e23-46cb-b740-7eaf17a802d0] received
+[2026-10-26 03:37:00,137] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:37:00,140] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '6c0245ca-9e23-46cb-b740-7eaf17a802d0', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '6c0245ca-9e23-46cb-b740-7eaf17a802d0', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:46:00.058744-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '6c0245ca-9e23-46cb-b740-7eaf17a802d0', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '6c0245ca-9e23-46cb-b740-7eaf17a802d0', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '22e98d28-198b-44f5-bcfd-f87eeff948b7'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:37:04,006] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[6c0245ca-9e23-46cb-b740-7eaf17a802d0] succeeded in 3.8621495139959734s: 'No new documents were added.'
+[2026-10-26 03:42:00,140] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:42:00,452] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 03:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:47:00,227] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:47:00,416] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->824bb0c5-0007-447e-a89c-917cd7f2abff
+[2026-10-26 03:47:00,418] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:47:00,420] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[824bb0c5-0007-447e-a89c-917cd7f2abff] received
+[2026-10-26 03:47:00,423] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '824bb0c5-0007-447e-a89c-917cd7f2abff', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '824bb0c5-0007-447e-a89c-917cd7f2abff', 'shadow': None, 'eta': None, 'expires': '2026-10-26T03:56:00.229009-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '824bb0c5-0007-447e-a89c-917cd7f2abff', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '824bb0c5-0007-447e-a89c-917cd7f2abff', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '9c3cc60b-24bd-47d7-85ed-12eb256733c9'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:47:03,751] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[824bb0c5-0007-447e-a89c-917cd7f2abff] succeeded in 3.3230188059969805s: 'No new documents were added.'
+[2026-10-26 03:52:00,419] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:52:00,839] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 03:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 03:57:00,190] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 03:57:00,259] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->988a85ef-0e51-4836-97e5-e713cb849de3
+[2026-10-26 03:57:00,261] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 03:57:00,259] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[988a85ef-0e51-4836-97e5-e713cb849de3] received
+[2026-10-26 03:57:00,262] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '988a85ef-0e51-4836-97e5-e713cb849de3', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '988a85ef-0e51-4836-97e5-e713cb849de3', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:06:00.192291-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '988a85ef-0e51-4836-97e5-e713cb849de3', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '988a85ef-0e51-4836-97e5-e713cb849de3', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '3f281707-41e5-4030-beae-b853b8a6c721'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 03:57:03,687] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[988a85ef-0e51-4836-97e5-e713cb849de3] succeeded in 3.421771114008152s: 'No new documents were added.'
+[2026-10-26 04:02:00,261] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:02:00,318] [DEBUG] [celery.beat] beat: Waking up in 2.99 minutes.
+[2026-10-26 04:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 04:05:00,185] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->ef73543d-5ae0-424d-877a-0bf3a9df10a4
+[2026-10-26 04:05:00,189] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 04:05:00,189] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[ef73543d-5ae0-424d-877a-0bf3a9df10a4] received
+[2026-10-26 04:05:00,193] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', 'ef73543d-5ae0-424d-877a-0bf3a9df10a4', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': 'ef73543d-5ae0-424d-877a-0bf3a9df10a4', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:04:00.001077-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'ef73543d-5ae0-424d-877a-0bf3a9df10a4', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'ef73543d-5ae0-424d-877a-0bf3a9df10a4', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '780d21cc-a8f3-4de9-ba39-1a4353c43f1e'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:05:00,344] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:05:00,346] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[414193b1-09d7-4f2c-9072-a2bdb156013e] received
+[2026-10-26 04:05:00,424] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[ef73543d-5ae0-424d-877a-0bf3a9df10a4] succeeded in 0.22740687101031654s: None
+[2026-10-26 04:05:00,467] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->414193b1-09d7-4f2c-9072-a2bdb156013e
+[2026-10-26 04:05:00,469] [DEBUG] [celery.beat] beat: Waking up in 1.99 minutes.
+[2026-10-26 04:05:00,512] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', '414193b1-09d7-4f2c-9072-a2bdb156013e', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': '414193b1-09d7-4f2c-9072-a2bdb156013e', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:04:00.191437-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '414193b1-09d7-4f2c-9072-a2bdb156013e', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '414193b1-09d7-4f2c-9072-a2bdb156013e', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'd843cd61-19e3-437b-bd8d-ddcbf4550aca'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:05:01,386] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[414193b1-09d7-4f2c-9072-a2bdb156013e] succeeded in 0.09968435300106648s: 'No automatic matching items, not training'
+[2026-10-26 04:07:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:07:00,312] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->2ba6698a-b1fc-480f-b6df-17f317295a0e
+[2026-10-26 04:07:00,315] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[2ba6698a-b1fc-480f-b6df-17f317295a0e] received
+[2026-10-26 04:07:00,314] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:07:00,317] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '2ba6698a-b1fc-480f-b6df-17f317295a0e', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '2ba6698a-b1fc-480f-b6df-17f317295a0e', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:16:00.002188-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '2ba6698a-b1fc-480f-b6df-17f317295a0e', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '2ba6698a-b1fc-480f-b6df-17f317295a0e', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'ed0c02d1-a96b-4081-884c-9b85c66e7705'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:07:06,737] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[2ba6698a-b1fc-480f-b6df-17f317295a0e] succeeded in 6.415603428991744s: 'No new documents were added.'
+[2026-10-26 04:12:00,317] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:12:00,371] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 04:16:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:17:00,068] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:17:00,165] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->96add896-b493-42bc-bb9f-6d5af09de08c
+[2026-10-26 04:17:00,167] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:17:00,167] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[96add896-b493-42bc-bb9f-6d5af09de08c] received
+[2026-10-26 04:17:00,170] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '96add896-b493-42bc-bb9f-6d5af09de08c', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '96add896-b493-42bc-bb9f-6d5af09de08c', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:26:00.068902-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '96add896-b493-42bc-bb9f-6d5af09de08c', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '96add896-b493-42bc-bb9f-6d5af09de08c', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '98af615a-857d-4b79-92f6-f00b170c3c13'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:17:04,140] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[96add896-b493-42bc-bb9f-6d5af09de08c] succeeded in 3.966365020998637s: 'No new documents were added.'
+[2026-10-26 04:22:00,168] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:22:00,256] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:27:00,275] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:27:00,364] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->1277fb58-799f-4162-a554-7a5075267f0b
+[2026-10-26 04:27:00,366] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:27:00,366] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[1277fb58-799f-4162-a554-7a5075267f0b] received
+[2026-10-26 04:27:00,368] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '1277fb58-799f-4162-a554-7a5075267f0b', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '1277fb58-799f-4162-a554-7a5075267f0b', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:36:00.276890-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '1277fb58-799f-4162-a554-7a5075267f0b', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '1277fb58-799f-4162-a554-7a5075267f0b', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'f69a9f66-04aa-42ee-93b2-fa238867fd31'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:27:10,840] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[1277fb58-799f-4162-a554-7a5075267f0b] succeeded in 10.468680305988528s: 'No new documents were added.'
+[2026-10-26 04:32:00,366] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:32:00,430] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 04:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:37:00,453] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:37:00,553] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->be52ccf7-6db9-4de1-bc28-5c1f0576e126
+[2026-10-26 04:37:00,555] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:37:00,556] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[be52ccf7-6db9-4de1-bc28-5c1f0576e126] received
+[2026-10-26 04:37:00,558] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'be52ccf7-6db9-4de1-bc28-5c1f0576e126', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'be52ccf7-6db9-4de1-bc28-5c1f0576e126', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:46:00.454866-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'be52ccf7-6db9-4de1-bc28-5c1f0576e126', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'be52ccf7-6db9-4de1-bc28-5c1f0576e126', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '3fd1195a-d9a0-4026-adcd-5a0d907d7bba'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:37:33,854] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[be52ccf7-6db9-4de1-bc28-5c1f0576e126] succeeded in 33.291674013991724s: 'No new documents were added.'
+[2026-10-26 04:42:00,556] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:42:00,634] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 04:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:47:00,063] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:47:00,134] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5
+[2026-10-26 04:47:00,135] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:47:00,137] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5] received
+[2026-10-26 04:47:00,139] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5', 'shadow': None, 'eta': None, 'expires': '2026-10-26T04:56:00.064343-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '1b47c41a-e846-4152-be48-323a5abb7bda'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:47:16,513] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[3bdb9458-6daf-4b4a-a7f9-805ef26ed4f5] succeeded in 16.36956770600227s: 'No new documents were added.'
+[2026-10-26 04:52:00,138] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:52:00,200] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 04:57:00,291] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 04:57:00,376] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->8c50bea9-72ed-4326-a61b-d222206c68fd
+[2026-10-26 04:57:00,377] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 04:57:00,379] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[8c50bea9-72ed-4326-a61b-d222206c68fd] received
+[2026-10-26 04:57:00,380] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '8c50bea9-72ed-4326-a61b-d222206c68fd', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '8c50bea9-72ed-4326-a61b-d222206c68fd', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:06:00.293588-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '8c50bea9-72ed-4326-a61b-d222206c68fd', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '8c50bea9-72ed-4326-a61b-d222206c68fd', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '42715bea-e2b5-4c04-bf29-6196fc509540'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 04:57:03,803] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[8c50bea9-72ed-4326-a61b-d222206c68fd] succeeded in 3.420904441009043s: 'No new documents were added.'
+[2026-10-26 05:02:00,378] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:02:00,481] [DEBUG] [celery.beat] beat: Waking up in 2.99 minutes.
+[2026-10-26 05:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 05:05:00,118] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->40a4b3f8-42f9-4293-a795-29fb86ba8ce8
+[2026-10-26 05:05:00,119] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 05:05:00,119] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[40a4b3f8-42f9-4293-a795-29fb86ba8ce8] received
+[2026-10-26 05:05:00,121] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', '40a4b3f8-42f9-4293-a795-29fb86ba8ce8', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': '40a4b3f8-42f9-4293-a795-29fb86ba8ce8', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:04:00.002226-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '40a4b3f8-42f9-4293-a795-29fb86ba8ce8', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '40a4b3f8-42f9-4293-a795-29fb86ba8ce8', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'b948d19a-0867-4b8a-a5ea-4d4550c919e6'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:05:00,172] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->2673afe1-666b-4a55-8e44-f6ce0a8be34c
+[2026-10-26 05:05:00,173] [DEBUG] [celery.beat] beat: Waking up in 2.00 minutes.
+[2026-10-26 05:05:00,174] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[2673afe1-666b-4a55-8e44-f6ce0a8be34c] received
+[2026-10-26 05:05:00,228] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[40a4b3f8-42f9-4293-a795-29fb86ba8ce8] succeeded in 0.10311786699458025s: None
+[2026-10-26 05:05:00,271] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', '2673afe1-666b-4a55-8e44-f6ce0a8be34c', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': '2673afe1-666b-4a55-8e44-f6ce0a8be34c', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:04:00.120247-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '2673afe1-666b-4a55-8e44-f6ce0a8be34c', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '2673afe1-666b-4a55-8e44-f6ce0a8be34c', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '77e47d76-dae6-45b0-8a9b-e16249b56e39'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:05:03,345] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[2673afe1-666b-4a55-8e44-f6ce0a8be34c] succeeded in 0.11048594300518744s: 'No automatic matching items, not training'
+[2026-10-26 05:06:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:07:00,065] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:07:00,137] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->62fb41b8-8af9-402e-b940-881ed1558275
+[2026-10-26 05:07:00,139] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:07:00,140] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[62fb41b8-8af9-402e-b940-881ed1558275] received
+[2026-10-26 05:07:00,142] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '62fb41b8-8af9-402e-b940-881ed1558275', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '62fb41b8-8af9-402e-b940-881ed1558275', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:16:00.066312-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '62fb41b8-8af9-402e-b940-881ed1558275', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '62fb41b8-8af9-402e-b940-881ed1558275', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '689284e1-003b-44d4-a3a6-e5db50dbd5d9'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:07:15,409] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[62fb41b8-8af9-402e-b940-881ed1558275] succeeded in 15.26301508799952s: 'No new documents were added.'
+[2026-10-26 05:12:00,140] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:12:00,217] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:16:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:17:00,066] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:17:00,158] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[6454d1cd-23a6-455f-827c-1363a5ed305c] received
+[2026-10-26 05:17:00,159] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->6454d1cd-23a6-455f-827c-1363a5ed305c
+[2026-10-26 05:17:00,160] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '6454d1cd-23a6-455f-827c-1363a5ed305c', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '6454d1cd-23a6-455f-827c-1363a5ed305c', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:26:00.067894-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '6454d1cd-23a6-455f-827c-1363a5ed305c', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '6454d1cd-23a6-455f-827c-1363a5ed305c', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '380e5f87-aee7-4165-90f0-28a2da87fffc'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:17:00,160] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:18:19,029] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[6454d1cd-23a6-455f-827c-1363a5ed305c] succeeded in 78.86714235598629s: 'No new documents were added.'
+[2026-10-26 05:22:00,160] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:22:00,236] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:27:00,094] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:27:00,170] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->37abef77-54fb-49fa-9d86-ded4cf5f2bfb
+[2026-10-26 05:27:00,171] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:27:00,173] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[37abef77-54fb-49fa-9d86-ded4cf5f2bfb] received
+[2026-10-26 05:27:00,175] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '37abef77-54fb-49fa-9d86-ded4cf5f2bfb', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '37abef77-54fb-49fa-9d86-ded4cf5f2bfb', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:36:00.095623-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '37abef77-54fb-49fa-9d86-ded4cf5f2bfb', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '37abef77-54fb-49fa-9d86-ded4cf5f2bfb', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'c62ac4a8-51d0-4826-bbb6-df2164ac36f1'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:27:08,164] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[37abef77-54fb-49fa-9d86-ded4cf5f2bfb] succeeded in 7.985295962003875s: 'No new documents were added.'
+[2026-10-26 05:32:00,172] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:32:00,240] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:37:00,070] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:37:00,140] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->33cd4a01-aea5-4368-b9f6-570f98e96c4c
+[2026-10-26 05:37:00,142] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:37:00,144] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[33cd4a01-aea5-4368-b9f6-570f98e96c4c] received
+[2026-10-26 05:37:00,146] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '33cd4a01-aea5-4368-b9f6-570f98e96c4c', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '33cd4a01-aea5-4368-b9f6-570f98e96c4c', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:46:00.072159-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '33cd4a01-aea5-4368-b9f6-570f98e96c4c', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '33cd4a01-aea5-4368-b9f6-570f98e96c4c', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'c14e9dfc-362f-496d-9585-ce5923fe2f4a'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:37:03,584] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[33cd4a01-aea5-4368-b9f6-570f98e96c4c] succeeded in 3.4361090259917546s: 'No new documents were added.'
+[2026-10-26 05:42:00,143] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:42:00,214] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:47:00,064] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:47:00,135] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->0b413a2e-ddb2-487a-9688-f9c1bcc06bb7
+[2026-10-26 05:47:00,137] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:47:00,137] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[0b413a2e-ddb2-487a-9688-f9c1bcc06bb7] received
+[2026-10-26 05:47:00,140] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '0b413a2e-ddb2-487a-9688-f9c1bcc06bb7', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '0b413a2e-ddb2-487a-9688-f9c1bcc06bb7', 'shadow': None, 'eta': None, 'expires': '2026-10-26T05:56:00.065689-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '0b413a2e-ddb2-487a-9688-f9c1bcc06bb7', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '0b413a2e-ddb2-487a-9688-f9c1bcc06bb7', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '193afec3-5154-4b8f-825d-7a05c4735df7'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:47:02,959] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[0b413a2e-ddb2-487a-9688-f9c1bcc06bb7] succeeded in 2.8154680309962714s: 'No new documents were added.'
+[2026-10-26 05:52:00,138] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:52:00,198] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 05:57:00,068] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 05:57:00,128] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->692e1ac9-efba-4f4a-8a8f-3dd24d2001aa
+[2026-10-26 05:57:00,130] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 05:57:00,130] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[692e1ac9-efba-4f4a-8a8f-3dd24d2001aa] received
+[2026-10-26 05:57:00,131] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '692e1ac9-efba-4f4a-8a8f-3dd24d2001aa', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '692e1ac9-efba-4f4a-8a8f-3dd24d2001aa', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:06:00.070088-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '692e1ac9-efba-4f4a-8a8f-3dd24d2001aa', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '692e1ac9-efba-4f4a-8a8f-3dd24d2001aa', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '476b8948-d0e9-465a-b883-85dc38c980d2'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 05:57:03,267] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[692e1ac9-efba-4f4a-8a8f-3dd24d2001aa] succeeded in 3.1338157759892056s: 'No new documents were added.'
+[2026-10-26 06:02:00,130] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:02:00,207] [DEBUG] [celery.beat] beat: Waking up in 3.00 minutes.
+[2026-10-26 06:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 06:05:00,087] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->6fb20d99-470f-4c8c-8634-f07e3f3ffb73
+[2026-10-26 06:05:00,089] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 06:05:00,090] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[6fb20d99-470f-4c8c-8634-f07e3f3ffb73] received
+[2026-10-26 06:05:00,093] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', '6fb20d99-470f-4c8c-8634-f07e3f3ffb73', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': '6fb20d99-470f-4c8c-8634-f07e3f3ffb73', 'shadow': None, 'eta': None, 'expires': '2026-10-26T07:04:00.002280-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '6fb20d99-470f-4c8c-8634-f07e3f3ffb73', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '6fb20d99-470f-4c8c-8634-f07e3f3ffb73', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '72e862c7-6dbf-40b5-8413-6c849bbb124f'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:05:00,140] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->cbe4ed41-bf4b-4dbf-8e7f-179fa183490a
+[2026-10-26 06:05:00,141] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[cbe4ed41-bf4b-4dbf-8e7f-179fa183490a] received
+[2026-10-26 06:05:00,141] [DEBUG] [celery.beat] beat: Waking up in 2.00 minutes.
+[2026-10-26 06:05:00,190] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[6fb20d99-470f-4c8c-8634-f07e3f3ffb73] succeeded in 0.09165871200093534s: 'No automatic matching items, not training'
+[2026-10-26 06:05:00,274] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', 'cbe4ed41-bf4b-4dbf-8e7f-179fa183490a', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': 'cbe4ed41-bf4b-4dbf-8e7f-179fa183490a', 'shadow': None, 'eta': None, 'expires': '2026-10-26T07:04:00.091002-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'cbe4ed41-bf4b-4dbf-8e7f-179fa183490a', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'cbe4ed41-bf4b-4dbf-8e7f-179fa183490a', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '23ff5fc6-7331-49c3-a7b3-7e8ffaa7a686'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:05:00,829] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[cbe4ed41-bf4b-4dbf-8e7f-179fa183490a] succeeded in 0.09917310799937695s: None
+[2026-10-26 06:06:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:07:00,070] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:07:00,149] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->b9b5605f-3c98-4e9b-a35d-6296bea568f9
+[2026-10-26 06:07:00,151] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:07:00,154] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[b9b5605f-3c98-4e9b-a35d-6296bea568f9] received
+[2026-10-26 06:07:00,156] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'b9b5605f-3c98-4e9b-a35d-6296bea568f9', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'b9b5605f-3c98-4e9b-a35d-6296bea568f9', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:16:00.072154-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'b9b5605f-3c98-4e9b-a35d-6296bea568f9', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'b9b5605f-3c98-4e9b-a35d-6296bea568f9', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '6250ae44-98a6-46a6-937b-2bcec008add4'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:07:08,014] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[b9b5605f-3c98-4e9b-a35d-6296bea568f9] succeeded in 7.853883468997083s: 'No new documents were added.'
+[2026-10-26 06:12:00,151] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:12:00,667] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 06:16:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:17:00,786] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:17:00,866] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->7f42163c-7ef1-4c65-ab0a-e2ec2123f82e
+[2026-10-26 06:17:00,866] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[7f42163c-7ef1-4c65-ab0a-e2ec2123f82e] received
+[2026-10-26 06:17:00,867] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:17:00,869] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '7f42163c-7ef1-4c65-ab0a-e2ec2123f82e', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '7f42163c-7ef1-4c65-ab0a-e2ec2123f82e', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:26:00.787367-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '7f42163c-7ef1-4c65-ab0a-e2ec2123f82e', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '7f42163c-7ef1-4c65-ab0a-e2ec2123f82e', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '28a4dc08-6dc3-42ce-9146-3e5a109376d9'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:17:04,572] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[7f42163c-7ef1-4c65-ab0a-e2ec2123f82e] succeeded in 3.698777425001026s: 'No new documents were added.'
+[2026-10-26 06:22:00,868] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:22:00,944] [DEBUG] [celery.beat] beat: Waking up in 4.98 minutes.
+[2026-10-26 06:26:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:27:00,340] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:27:00,404] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->4cb1f8c4-0346-42a3-b94c-fbe7c7a80190
+[2026-10-26 06:27:00,406] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:27:00,408] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[4cb1f8c4-0346-42a3-b94c-fbe7c7a80190] received
+[2026-10-26 06:27:00,410] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '4cb1f8c4-0346-42a3-b94c-fbe7c7a80190', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '4cb1f8c4-0346-42a3-b94c-fbe7c7a80190', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:36:00.342041-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '4cb1f8c4-0346-42a3-b94c-fbe7c7a80190', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '4cb1f8c4-0346-42a3-b94c-fbe7c7a80190', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'a497325c-3786-48ae-a0df-50989a97a395'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:27:05,663] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[4cb1f8c4-0346-42a3-b94c-fbe7c7a80190] succeeded in 5.24923994600249s: 'No new documents were added.'
+[2026-10-26 06:32:00,406] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:32:00,478] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 06:36:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:37:00,068] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:37:00,135] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->753993a6-d490-4993-91ad-c7f7219bbb1d
+[2026-10-26 06:37:00,136] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:37:00,136] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[753993a6-d490-4993-91ad-c7f7219bbb1d] received
+[2026-10-26 06:37:00,137] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '753993a6-d490-4993-91ad-c7f7219bbb1d', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '753993a6-d490-4993-91ad-c7f7219bbb1d', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:46:00.069793-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '753993a6-d490-4993-91ad-c7f7219bbb1d', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '753993a6-d490-4993-91ad-c7f7219bbb1d', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '82d66456-878c-4bdc-a9e7-9800ca1af92c'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:37:04,767] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[753993a6-d490-4993-91ad-c7f7219bbb1d] succeeded in 4.6272615430061705s: 'No new documents were added.'
+[2026-10-26 06:42:00,136] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:42:00,690] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 06:46:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:47:00,063] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:47:00,129] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->69f455f9-f004-4e76-8089-76333ab188d6
+[2026-10-26 06:47:00,128] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[69f455f9-f004-4e76-8089-76333ab188d6] received
+[2026-10-26 06:47:00,130] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:47:00,130] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '69f455f9-f004-4e76-8089-76333ab188d6', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '69f455f9-f004-4e76-8089-76333ab188d6', 'shadow': None, 'eta': None, 'expires': '2026-10-26T06:56:00.064825-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '69f455f9-f004-4e76-8089-76333ab188d6', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '69f455f9-f004-4e76-8089-76333ab188d6', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'b326db5e-79cc-47a7-ab64-24fe878509de'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:47:04,791] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[69f455f9-f004-4e76-8089-76333ab188d6] succeeded in 4.658275755005889s: 'No new documents were added.'
+[2026-10-26 06:52:00,130] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:52:00,173] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:56:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 06:57:00,071] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 06:57:00,147] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->9e3e1a4f-5613-4f0c-90d3-9501b8cccc83
+[2026-10-26 06:57:00,148] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 06:57:00,150] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[9e3e1a4f-5613-4f0c-90d3-9501b8cccc83] received
+[2026-10-26 06:57:00,152] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '9e3e1a4f-5613-4f0c-90d3-9501b8cccc83', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '9e3e1a4f-5613-4f0c-90d3-9501b8cccc83', 'shadow': None, 'eta': None, 'expires': '2026-10-26T07:06:00.073018-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '9e3e1a4f-5613-4f0c-90d3-9501b8cccc83', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '9e3e1a4f-5613-4f0c-90d3-9501b8cccc83', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '9f6ece63-47b8-451c-be6b-a087861c378f'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 06:57:03,516] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[9e3e1a4f-5613-4f0c-90d3-9501b8cccc83] succeeded in 3.3601162760023726s: 'No new documents were added.'
+[2026-10-26 07:02:00,149] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 07:02:00,217] [DEBUG] [celery.beat] beat: Waking up in 3.00 minutes.
+[2026-10-26 07:05:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check and run scheduled workflows (documents.tasks.check_scheduled_workflows)
+[2026-10-26 07:05:00,293] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 07:05:00,297] [INFO] [celery.worker.strategy] Task documents.tasks.check_scheduled_workflows[56503ad2-e59a-44be-bdf5-0e22d6e13895] received
+[2026-10-26 07:05:00,299] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.check_scheduled_workflows', '56503ad2-e59a-44be-bdf5-0e22d6e13895', {'lang': 'py', 'task': 'documents.tasks.check_scheduled_workflows', 'id': '56503ad2-e59a-44be-bdf5-0e22d6e13895', 'shadow': None, 'eta': None, 'expires': '2026-10-26T08:04:00.002054-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '56503ad2-e59a-44be-bdf5-0e22d6e13895', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '56503ad2-e59a-44be-bdf5-0e22d6e13895', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '23f90ea5-ca30-4781-aac8-9236d5069e6f'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 07:05:00,351] [DEBUG] [celery.beat] documents.tasks.check_scheduled_workflows sent. id->56503ad2-e59a-44be-bdf5-0e22d6e13895
+[2026-10-26 07:05:00,353] [INFO] [celery.beat] Scheduler: Sending due task Train the classifier (documents.tasks.train_classifier)
+[2026-10-26 07:05:00,400] [DEBUG] [celery.beat] documents.tasks.train_classifier sent. id->b006fba1-85d6-4308-800e-ee3a0c79a91b
+[2026-10-26 07:05:00,401] [DEBUG] [celery.beat] beat: Waking up in 1.99 minutes.
+[2026-10-26 07:05:00,402] [INFO] [celery.worker.strategy] Task documents.tasks.train_classifier[b006fba1-85d6-4308-800e-ee3a0c79a91b] received
+[2026-10-26 07:05:00,431] [INFO] [celery.app.trace] Task documents.tasks.check_scheduled_workflows[56503ad2-e59a-44be-bdf5-0e22d6e13895] succeeded in 0.12624668100033887s: None
+[2026-10-26 07:05:00,477] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('documents.tasks.train_classifier', 'b006fba1-85d6-4308-800e-ee3a0c79a91b', {'lang': 'py', 'task': 'documents.tasks.train_classifier', 'id': 'b006fba1-85d6-4308-800e-ee3a0c79a91b', 'shadow': None, 'eta': None, 'expires': '2026-10-26T08:04:00.354212-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'b006fba1-85d6-4308-800e-ee3a0c79a91b', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'b006fba1-85d6-4308-800e-ee3a0c79a91b', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '3540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'c1ac4166-1ad4-4b87-98a9-a93d618fc0ea'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 07:05:03,595] [INFO] [celery.app.trace] Task documents.tasks.train_classifier[b006fba1-85d6-4308-800e-ee3a0c79a91b] succeeded in 0.1078884409944294s: 'No automatic matching items, not training'
+[2026-10-26 07:07:00,000] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 07:07:00,312] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->e07db59e-6df0-4931-9672-beb1a56283d5
+[2026-10-26 07:07:00,314] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 07:07:00,314] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[e07db59e-6df0-4931-9672-beb1a56283d5] received
+[2026-10-26 07:07:00,317] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', 'e07db59e-6df0-4931-9672-beb1a56283d5', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': 'e07db59e-6df0-4931-9672-beb1a56283d5', 'shadow': None, 'eta': None, 'expires': '2026-10-26T07:16:00.001965-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': 'e07db59e-6df0-4931-9672-beb1a56283d5', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': 'e07db59e-6df0-4931-9672-beb1a56283d5', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': 'f201ab41-21f8-4de0-bb33-709e4e3abd5f'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 07:07:33,661] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[e07db59e-6df0-4931-9672-beb1a56283d5] succeeded in 33.34021981499973s: 'No new documents were added.'
+[2026-10-26 07:12:00,315] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 07:12:00,378] [DEBUG] [celery.beat] beat: Waking up in 4.99 minutes.
+[2026-10-26 07:16:59,991] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 07:17:00,068] [INFO] [celery.beat] Scheduler: Sending due task Check all e-mail accounts (paperless_mail.tasks.process_mail_accounts)
+[2026-10-26 07:17:00,136] [INFO] [celery.worker.strategy] Task paperless_mail.tasks.process_mail_accounts[70806c5b-25fa-409e-aa49-4dcb17a6bbe3] received
+[2026-10-26 07:17:00,136] [DEBUG] [celery.beat] paperless_mail.tasks.process_mail_accounts sent. id->70806c5b-25fa-409e-aa49-4dcb17a6bbe3
+[2026-10-26 07:17:00,137] [DEBUG] [celery.pool] TaskPool: Apply <function fast_trace_task at 0x716803a621f0> (args:('paperless_mail.tasks.process_mail_accounts', '70806c5b-25fa-409e-aa49-4dcb17a6bbe3', {'lang': 'py', 'task': 'paperless_mail.tasks.process_mail_accounts', 'id': '70806c5b-25fa-409e-aa49-4dcb17a6bbe3', 'shadow': None, 'eta': None, 'expires': '2026-10-26T07:26:00.069955-04:00', 'group': None, 'group_index': None, 'retries': 0, 'timelimit': [None, None], 'root_id': '70806c5b-25fa-409e-aa49-4dcb17a6bbe3', 'parent_id': None, 'argsrepr': '()', 'kwargsrepr': '{}', 'origin': 'gen192@1a7df94ea77d', 'ignore_result': False, 'replaced_task_nesting': 0, 'stamped_headers': None, 'stamps': {}, 'trigger_source': 'scheduled', 'properties': {'correlation_id': '70806c5b-25fa-409e-aa49-4dcb17a6bbe3', 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'delivery_mode': 2, 'expiration': '540000', 'delivery_info': {'exchange': '', 'routing_key': 'celery'}, 'priority': 0, 'body_encoding': 'base64', 'delivery_tag': '0929bf64-77d4-41ac-b4bd-24b242c290bc'}, 'reply_to': 'ff4ac453-fa01-3344-ad66-c847a03530a9', 'correlation_id':... kwargs:{})
+[2026-10-26 07:17:00,138] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.
+[2026-10-26 07:17:06,081] [INFO] [celery.app.trace] Task paperless_mail.tasks.process_mail_accounts[70806c5b-25fa-409e-aa49-4dcb17a6bbe3] succeeded in 5.941675474008662s: 'No new documents were added.'
+[2026-10-26 07:22:00,138] [DEBUG] [celery.beat] beat: Synchronizing schedule...
+[2026-10-26 07:22:00,225] [DEBUG] [celery.beat] beat: Waking up in 5.00 minutes.

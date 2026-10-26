@@ -1,0 +1,3 @@
+streams:
+  bedroom_cam:
+    - "rtsp://skyelove96:One9nine6@10.0.0.15:554/stream1#rtsp.transport=tcp"
