@@ -32,8 +32,8 @@ services:
     restart: unless-stopped
     environment:
       POSTGRES_DB: paperless
-      POSTGRES_USER: ***REMOVED***
-      POSTGRES_PASSWORD: ***REMOVED***
+      POSTGRES_USER: POSTGRES_USER
+      POSTGRES_PASSWORD: POSTGRES_PASSWORD
     volumes:
       - pg-data:/var/lib/postgresql/data
 
@@ -50,8 +50,8 @@ services:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
       PAPERLESS_DBNAME: paperless
-      PAPERLESS_DBUSER: ***REMOVED***
-      PAPERLESS_DBPASS: ***REMOVED***
+      PAPERLESS_DBUSER: POSTGRES_DBUSER
+      PAPERLESS_DBPASS: POSTGRES_DBPASSWORD
       PAPERLESS_DISABLE_REGULAR_SCHEDULES: true
       # Disable the machine learning classifier to prevent AVX/SIGILL crashes
       PAPERLESS_TASK_WORKERS: 1
