@@ -1,0 +1,46 @@
+# Captured from the live container on 2026-11-02.
+# NPM was originally started with `docker run`; this file reproduces it exactly,
+# including the networks it is manually attached to, so a future recreate keeps
+# proxy-name resolution working. Apply with: docker compose up -d
+services:
+  npm:
+    image: jc21/nginx-proxy-manager:latest
+    container_name: nginx-proxy-manager
+    restart: unless-stopped
+    ports:
+      - "8082:80"   # HTTP entry point for proxy hosts
+      - "8443:443"  # HTTPS entry point
+      - "8090:81"   # Admin UI
+    volumes:
+      - npm_data:/data
+      - /var/run/docker.sock:/var/run/docker.sock:ro
+      - /etc/letsencrypt:/etc/letsencrypt
+      - /etc/acme.sh:/etc/acme.sh
+    networks:
+      - homelife-stack_default
+      - adguard_default
+      - arcane_default
+      - ollama-docker_default
+      - scrutiny_default
+      - cyberchef_default
+      - homelab_default
+
+volumes:
+  npm_data:
+    external: true
+
+networks:
+  homelife-stack_default:
+    external: true
+  adguard_default:
+    external: true
+  arcane_default:
+    external: true
+  ollama-docker_default:
+    external: true
+  scrutiny_default:
+    external: true
+  cyberchef_default:
+    external: true
+  homelab_default:
+    external: true
