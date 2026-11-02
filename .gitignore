@@ -1,7 +1,22 @@
+# Secrets: never commit
 .env
-addguard/
-adguard/
+*.env
+*.key
+*.pem
+
+# Service runtime state / bind-mounted data
 data/
 media/
 consume/
-.env
+export/
+adguard/work/
+adguard/conf/
+npm/data/
+kuma/
+speedtest/
+
+# Logs and databases
+*.log
+*.sqlite
+*.db
+scrutiny/

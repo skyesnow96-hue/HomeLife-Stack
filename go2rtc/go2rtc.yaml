@@ -1,3 +1,2 @@
 streams:
-  bedroom_cam:
-    - ${BEDROOM_CAM}
+  bedroom_cam: ${BEDROOM_CAM}
