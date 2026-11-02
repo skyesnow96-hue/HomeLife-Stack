@@ -1,0 +1,9 @@
+services:
+  cyberchef:
+    image: ghcr.io/gchq/cyberchef:latest
+    container_name: cyberchef
+    restart: unless-stopped
+    ports:
+      - "8083:8080" # Web UI
+    environment:
+      - "TZ=America/Toronto"
